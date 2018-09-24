@@ -19,7 +19,7 @@
 .nav ul li img{position: absolute;left: 4.35rem;top: 0.1rem;width: 0.3rem;}
 .listItem {padding: 0.2rem;overflow: hidden;position: relative;border-bottom:1px dotted rgba(155, 155, 155, 0.3)}
 .listItem img{width: 2rem;display: block;float: left;border-radius: 0.05rem}
-.listItem .text{width: 3.6rem;height: 2rem;float: left;margin-left: 0.4rem;}
+.listItem .text{width: 3.6rem;height: 2rem;float: left;margin-left: 0.4rem;position: relative;}
 .listItem .text h3{color: #333;font-size: 0.2rem;font-weight: normal;margin-top: 0.1rem;}
 .listItem .text h4{color: #fff;font-size: 0.16rem;font-weight: normal;margin-top: 0.1rem;width:1.2rem;background: goldenrod;padding: 0.02rem 0.2rem;border-radius: 0.1rem;text-align: center;position: absolute;bottom: 0.2rem;}
 .listItem .text h5{color: red;font-size: 0.4rem;margin-top: 0.2rem;position: absolute;bottom: 0.7rem;}
