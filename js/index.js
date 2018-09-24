@@ -4,6 +4,7 @@ var mySwiper = new Swiper('.swiper-container', {
     speed:1500
 })
 
+var flag=1;
 function change() {
     if (flag == 1) {
         $('#price').attr('src', './images/price2.png');
