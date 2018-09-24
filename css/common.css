@@ -1,10 +1,83 @@
-*{margin: 0;padding: 0;}
-header{height: 0.6rem;position: relative;border-bottom:1px solid gray}
-header label{font-size: 0.25rem;color: goldenrod;line-height: 0.5rem;margin-left: 0.4rem;}
-header input{font-size: 0.2rem;height: 0.3rem;line-height: 05rem;width: 3.7rem;border-radius: 0.1rem;border: 1px solid goldenrod;outline: none;text-align: center; text-align: center;margin-left: 0.4rem;}
-header img{width: 0.3rem;position: absolute;right: 0.3rem;top: 0.1rem;}
-.footer{height: 0.6rem;background: #eee;position: fixed; bottom: 0;}
-.footer ul li{list-style: none;float: left;width: 1.59rem;cursor: pointer;text-align: center;border-left: 1px solid rgba(155, 155, 155, 0.5)}
-.footer ul li:nth-child(3){width: 3.2rem;background: goldenrod;height: 0.6rem;border: 0}
-.footer ul li img{width: 0.6rem;}
-.footer ul li a{text-decoration: none;color: #fff;line-height: 0.6rem;font-size: 0.4rem;}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background: #aaa;
+}
+
+body {
+    max-width: 6.4rem;
+    width: 6.4rem;
+    margin: 0 auto;
+    background: #fff;
+    font-size: 0.2rem;
+}
+header {
+    height: 0.6rem;
+    position: relative;
+    border-bottom: 1px solid gray;
+    position: relative;
+}
+
+header label {
+    font-size: 0.25rem;
+    color: goldenrod;
+    line-height: 0.6rem;
+    position: absolute;
+    left: 0.4rem;
+}
+
+header input {
+    font-size: 0.2rem;
+    height: 0.3rem;
+    line-height: 05rem;
+    width: 3.7rem;
+    border-radius: 0.1rem;
+    border: 1px solid goldenrod;
+    outline: none;
+    text-align: center;
+    text-align: center;
+    position: absolute;left: 1.7rem;top: 0.14rem
+}
+
+header img {
+    width: 0.3rem;
+    position: absolute;
+    right: 0.3rem;
+    top: 0.15rem;
+}
+
+.footer {
+    height: 0.6rem;
+    background: #eee;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer ul li {
+    list-style: none;
+    float: left;
+    width: 1.58rem;
+    cursor: pointer;
+    text-align: center;
+    border-left: 1px solid rgba(155, 155, 155, 0.5)
+}
+
+.footer ul li:nth-child(3) {
+    width: 3.2rem;
+    background: goldenrod;
+    height: 0.6rem;
+    border: 0
+}
+
+.footer ul li img {
+    width: 0.6rem;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 0.6rem;
+    font-size: 0.4rem;
+}

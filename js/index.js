@@ -1,4 +1,8 @@
-var flag = 1;
+var mySwiper = new Swiper('.swiper-container', {
+    autoplay: true, //可选选项，自动滑动
+    loop:true,
+    speed:1500
+})
 
 function change() {
     if (flag == 1) {
@@ -11,19 +15,20 @@ function change() {
     }
     flag++;
     if (flag == 3) {
-        flag=1;
+        flag = 1;
     }
 }
-function color(num){
+
+function color(num) {
     $('#price').attr('src', './images/price1.png');
     $('#pText').html('价格');
     $('.nav ul li').css({
-        color:'#aaa',
-        fontWeight:' normal'
-       
+        color: '#aaa',
+        fontWeight: ' normal'
+
     });
     $('.nav ul li').eq(num).css({
-        color:'goldenrod',
-        fontWeight:'bold'
+        color: 'goldenrod',
+        fontWeight: 'bold'
     });
 }

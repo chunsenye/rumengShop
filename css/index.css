@@ -1,14 +1,4 @@
-html {
-    background: #aaa;
-}
 
-body {
-    max-width: 6.4rem;
-    width: 6.4rem;
-    margin: 0 auto;
-    background: #fff;
-    font-size: 0.2rem;
-}
 .banner{
     height: 3rem;
     color: #aaa;
@@ -16,6 +6,7 @@ body {
     text-align: center;
     border-bottom:1px solid gray;
 }
+.banner img{width: 6.4rem;height: 3rem;}
 .nav{
     height: 0.5rem;
     color: #aaa;
